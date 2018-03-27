@@ -7,9 +7,9 @@ public class Helper {
 
     public static void main(String[] args) throws IOException{
 
-        BufferedReader pr = new BufferedReader(new FileReader("/Users/xuwei/src/Project3-1/src/main/java/pr1.txt"));
-        BufferedReader transition = new BufferedReader(new FileReader("/Users/xuwei/src/Project3-1/src/main/java/transition.txt"));
-        FileWriter fileWriter = new FileWriter("/Users/xuwei/src/Project3-1/src/main/java/result.cvs");
+        BufferedReader pr = new BufferedReader(new FileReader("/Users/xuwei/src/PageRank/src/main/java/pr1.txt"));
+        BufferedReader transition = new BufferedReader(new FileReader("/Users/xuwei/src/PageRank/src/main/java/transition.txt"));
+        FileWriter fileWriter = new FileWriter("/Users/xuwei/src/PageRank/src/main/java/result.cvs");
 
         Map<String, String> page_pr = new HashMap<String, String>();
 
